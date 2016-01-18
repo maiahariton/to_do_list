@@ -1,0 +1,89 @@
+html {
+    background-color: #2A2A72;
+}
+
+#container {
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 50px;
+    text-align: left;
+}
+
+h1{
+    line-height: 1.3em;
+    color: #009FFD;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+/* Form Styling */
+input {
+    width: 75%;
+    min-height: 60px;
+    font-size: 1.65em;
+    font-family: 'Lato', Arial, sans-serif;
+    padding-left: 15px;
+    background-color: #EEE;
+    color: #c1c1c1;
+    border: none;
+}
+
+button {
+    height: 40px;
+    font-size: 10px;
+    border: none;
+    color: #FFF;
+    float: right;
+}
+
+button:hover {
+    background-color: #FFF;
+    cursor: pointer;
+    color: #2e353b;
+}
+
+ul li {
+    width: 72%;
+    min-height: 50px;
+    font-size: 1.65em;
+    padding: 8px 15px;
+    list-style-type: none;
+    background-color: #BBB;
+    color: #FFF;
+    border-bottom: 1px solid #BBB;
+    border-left: 1px solid #BBB;
+    border-right: 1px solid #BBB;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-top: 20px;
+}
+
+li button {
+    width: 30px;
+    font-size: 20px;
+}
+
+input, button {
+    outline: none;
+}
+
+#submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    background: #009FFD;
+    border: none;
+    color: #FFF;
+    height: 60px;
+}
+
